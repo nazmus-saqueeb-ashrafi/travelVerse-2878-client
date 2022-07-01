@@ -163,7 +163,7 @@ const Nav = ({dark,setDark}) => {
                       <Menu.Item>
                         {({ active }) => (
                           <>
-                          <Link to="/profile">
+                          {/* <Link to="/profile"> */}
                             <a
                               href="#"
                               className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
@@ -171,7 +171,7 @@ const Nav = ({dark,setDark}) => {
                               Your Profile
                             </a>
                             
-                          </Link>
+                          {/* </Link> */}
 
                              <a
                               href="/login"

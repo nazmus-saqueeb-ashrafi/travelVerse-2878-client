@@ -1,10 +1,23 @@
-// import Sidebar from '../components/dashboardComponents/Sidebar'
-// import MessengerSideBar from '../components/dashboardComponents/MessengerSideBar'
+import Sidebar from './Sidebar'
+import MessengerSideBar from './MessengerSideBar'
 import Nav from './Nav'
 
 
 
 export default function Home() {
+
+  // const [dark,setDark] = useState('dark')
+
+  // const window = document.querySelector(".window");
+
+  // useEffect(() => {
+  //   const darkMode = ()=>{
+  //     window.classList.toggle(dark);
+  //   }
+
+  //   darkMode()
+
+  // },[setDark])
 
 
   return (
@@ -28,19 +41,19 @@ export default function Home() {
 
           <div class="top-10 left-0 fixed">
             
-            {/* <Sidebar/> */}
+            <Sidebar/>
             
           </div>
 
           <div class="top-10 right-0 fixed invisible md:visible">
-            {/* <MessengerSideBar/> */}
+            <MessengerSideBar/>
           </div>
           
           <div class="xl:col-start-2 xl:col-span-3 lg:col-start-2 md:col-span-3 xl:ml-0 xl:mr-0 xl:w-full lg:w-8/12 lg:ml-0 lg:mr-10 md:w-10/12 md:ml-10 w-full">
 
            
 
-            <hr class="w-full xl:col-start-1 xl:col-span-3 mt-8 opacity-10"></hr>
+            {/* <hr class="w-full xl:col-start-1 xl:col-span-3 mt-8 opacity-10"></hr> */}
 
     
 
