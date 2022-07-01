@@ -1,6 +1,8 @@
-import Sidebar from './Sidebar'
-import MessengerSideBar from './MessengerSideBar'
-import Nav from './Nav'
+import Sidebar from '../../components/Sidebar'
+import MessengerSideBar from '../../components/MessengerSideBar'
+import Nav from '../../components/Nav'
+
+import ProfileCard from '../../components/ProfileCard'
 
 
 
@@ -55,6 +57,8 @@ export default function Home() {
 
             {/* <hr class="w-full xl:col-start-1 xl:col-span-3 mt-8 opacity-10"></hr> */}
 
+            {/* <ProfileCard/> */}
+            
     
 
           </div>

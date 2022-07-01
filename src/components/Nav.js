@@ -99,7 +99,7 @@ const Nav = ({dark,setDark}) => {
                 
                 
                 <div className="flex-shrink-0 flex items-center sm:ml-6">
-                  <h1 class="font-['Abril'] italic font-medium text-2xl text-sky-500 pb-0 flex flex-col text-center w-full mr-10 sm:mr-5">Around the world</h1>
+                  <h1 class="font-['Abril'] italic font-medium text-2xl text-sky-600 pb-0 flex flex-col text-center w-full mr-10 sm:mr-5">Travelverse</h1>
                   {/* <h1 class="font-['Abril'] font-bold italic text-5xl text-sky-500">Around the world</h1> */}
                 </div>
                   
