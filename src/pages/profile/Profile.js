@@ -107,7 +107,7 @@ const ProfilePage = () => {
                         // className='mt-6 mr-5 absolute top-0 right-0  btn modal-button'
                     /> */}
 
-                    <label for="my-modal-3" class="mt-6 mr-5 absolute top-0 right-0 modal-button">
+                    <label for="profile-modal" class="mt-6 mr-5 absolute top-0 right-0 modal-button">
                         <UilPen
                         width="2rem"
                         height="1.2rem"                

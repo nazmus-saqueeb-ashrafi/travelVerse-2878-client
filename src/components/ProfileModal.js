@@ -3,14 +3,14 @@ import React from 'react'
 const ProfileModal = () => {
   return (
     <div>
-      <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+      <input type="checkbox" id="profile-modal" class="modal-toggle" />
       <div class="modal">
 
 
-        <div class="modal-box relative bg-slate-600">
+        <div class="modal-box relative bg-base-100">
 
 
-          <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+          <label for="profile-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
 
 
           <div class="mt-10 sm:mt-0 ">
@@ -19,7 +19,7 @@ const ProfileModal = () => {
               <div class="mt-5 md:mt-0 md:col-span-3">
                 <form action="#" method="POST">
                   <div class=" overflow-hidden sm:rounded-md">
-                    <div class="px-4 py-5 bg-slate-600 sm:p-6">
+                    <div class="px-4 py-5 bg-base-100 sm:p-6">
 
                       <div class="grid grid-cols-6 gap-6">
                         <div class="col-span-6 sm:col-span-3">
@@ -90,8 +90,8 @@ const ProfileModal = () => {
                     </div>
 
 
-                    <div class="px-4 py-3 bg-slate-600 text-right sm:px-6">
-                      <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-cyan-600 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Save</button>
+                    <div class="px-4 py-3 bg-base-100 text-right sm:px-6">
+                      <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-cyan-600 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500">Save</button>
                     </div>
 
                   </div>

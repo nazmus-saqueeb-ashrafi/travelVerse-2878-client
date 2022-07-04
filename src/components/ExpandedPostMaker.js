@@ -1,10 +1,10 @@
 import React from 'react'
-import { useDimensions } from "../../useDimentions"
+import { useDimensions } from "../dimentions/Dimentions"
 import Map from 'react-map-gl';
 import { useRef, useState } from "react";
 
-import Modal from "../profilePageComponents/Modal";
-import ModalHeader from "../profilePageComponents/ModalHeader";
+import Modal from "../components/Modal";
+import ModalHeader from "../components/ModalHeader";
 
 const ExpandedPostMaker = ({showModal,setShowModal}) => {
 
@@ -73,7 +73,7 @@ const ExpandedPostMaker = ({showModal,setShowModal}) => {
 
                 </div>
 
-                <button data-modal-toggle="defaultModal" type="button" class="btn btn-info mt-4 mb-2 w-full">Post</button>
+                <button data-modal-toggle="defaultModal" type="button" class="btn bg-cyan-600 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 text-white mt-4 mb-2 w-full">Post</button>
 
             </div>
 
