@@ -2,6 +2,7 @@ import React from 'react'
 import Map from 'react-map-gl';
 import { motion } from "framer-motion"
 import { useRef, useState } from "react";
+import { UilPen } from "@iconscout/react-unicons";
 
 import { useDimensions } from "../../dimentions/Dimentions"
 
@@ -9,6 +10,7 @@ import UnExpandedPostMaker from '../../components/UnExpandedPostMaker';
 // import ExpandedPostMaker from './profilePageComponents/ExpandedPostMaker';
 import Post from '../../components/Post';
 import FriendsBlock from '../../components/FriendsBlock';
+import ProfileModal from '../../components/ProfileModal';
 
 
 const ProfilePage = () => {
@@ -16,6 +18,8 @@ const ProfilePage = () => {
     const { width,height } = useDimensions(constraintsRef);
 
     const [showModal, setShowModal] = useState(false);
+
+    
 
 
     const profileCardVariants = {
@@ -94,6 +98,24 @@ const ProfilePage = () => {
                         </svg>
                     </button>
 
+                    {/* <UilPen
+                        width="2rem"
+                        height="1.2rem"
+
+                        // onClick={() => setProfileModalOpened(true)}
+                        // for="my-modal-3"
+                        // className='mt-6 mr-5 absolute top-0 right-0  btn modal-button'
+                    /> */}
+
+                    <label for="my-modal-3" class="mt-6 mr-5 absolute top-0 right-0 modal-button">
+                        <UilPen
+                        width="2rem"
+                        height="1.2rem"                
+                    />
+                    </label>
+
+                    <ProfileModal/>
+
                     {/* avatar */}
                     <div class="avatar pt-10">
                         <div class="w-24 mask mask-squircle">
@@ -135,6 +157,7 @@ const ProfilePage = () => {
                 />
                 
             </div>
+            
         </div>
 
         {/* <div class="flex">
